@@ -1,6 +1,9 @@
 body{
     padding-bottom: 60px;
 }
+.footer{
+    position: fixed;bottom: 0px;width: 100%; background-color: aquamarine;text-align: center;padding: 10px;
+}
 .label1{
         display: inline-block; width: 100px;
         padding: 10px 0;
@@ -16,5 +19,13 @@ td, th{
     text-align: center;
 }
 .caption{
-margin: 0;padding: 0;font-style: italic;text-align: center;
+margin: 10px 0;padding: 0;font-style: italic;text-align: center;
+}
+img{
+    display: block ;
+    margin: 0px auto;
+    width:600px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .8);
 }
