@@ -4,8 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <style>
+     .label1{
+        display: inline-block; width: 100px;
+        padding: 10px 0;
+     }
+    body{
+            padding-bottom: 60px;
+        }
+    </style>
 </head>
-<body>
+<header>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -13,8 +22,42 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+</header>
+<body>
+    <h3>Contact Me</h3>
+    <form>
+        <div class="form">
+            <label class="label1">Full Name</label>
+            <input type="text">
+        </div>
+         <div class="form">
+            <label class="label1">Email Adress</label>
+            <input type="text">
+        </div>
+         <div class="form">
+            <label class="label1">Message</label>
+            <input type="text">
+        </div>
+        <div class="form">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
+    <h3 class="links">Links</h3>
+    <ul>
+        <li><a href="https://github.com/hassan-chergui">Github</a></li>
+        <li><a href="https://www.linkedin.com/">LinkedIn(placeholder)</a></li>
+    </ul>
     
-
-
+    <h3>Breathe and Enjoy This Serene Nature Gameplay</h3>
+    <video src="vids/ori2.mp4" width="350px" controls loop></video>
+    <h3>Don't forget your daily dose of Quran:</h3>
+    <audio controls>
+        <source src="Audio/waqi3a.mp3">
+    </audio>
+    <!-- Footer -->
+<footer id="footer" style="position: fixed;bottom: 0px;width: 100%; background-color: aquamarine;text-align: center;padding: 10px;">
+    Hassan Chergui&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2025
+</footer>
 </body>
 </html>
