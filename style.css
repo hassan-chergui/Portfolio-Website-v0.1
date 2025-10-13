@@ -2,6 +2,7 @@
     font-family: sans-serif;
 }
 body{
+    min-height: 100vh;
     margin-left: 50px;
     background: radial-gradient(circle,white 60%, rgb(185, 184, 184));
 /*     background: linear-gradient(white,black);
@@ -54,14 +55,24 @@ nav a:hover{
 }
 
 table{
-            border-collapse: collapse;
-            border: 2px solid;
+    border-collapse: collapse;
+    border: 2px solid;
 }
 
 td, th{
-    border: 1px solid;
+    border: 1px solid black;
     padding: 10px 20px;
     text-align: center;
+}
+th{
+    background-color: #375ec9;
+    color: yellow;
+}
+tr:nth-child(odd){
+    background-color: #e3eafa;
+}
+tr:nth-child(even){
+    background-color: #fdffeb;
 }
 .caption{
 margin: 10px 0;padding: 0;font-style: italic;text-align: center;
