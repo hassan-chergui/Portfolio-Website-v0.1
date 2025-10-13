@@ -25,6 +25,10 @@ nav{
 nav li{
     list-style-type: none;
 }
+nav ul{
+    display: flex;
+
+justify-content: space-around;}
 nav a{
     color: rgb(255, 242, 0);
     text-decoration: none;
