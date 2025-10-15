@@ -29,9 +29,10 @@ nav li{
 }
 nav ul{
     display: flex;
-
-justify-content: space-around;}
+    justify-content: center;
+}
 nav a{
+    padding: 0 5em;
     color: rgb(255, 242, 0);
     text-decoration: none;
 }
