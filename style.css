@@ -2,12 +2,14 @@
     font-family: sans-serif;
 }
 body{
-    min-height: 100vh;
+    padding-top: 4em;
+    padding-bottom: 4em;
+/*  min-height: 100vh;*/
     margin-left: 50px;
     background: radial-gradient(circle,white 60%, rgb(185, 184, 184));
-/*     background: linear-gradient(white,black);
- *//*     background-color: aqua ;
- */    background-repeat: no-repeat;
+/*  background: linear-gradient(white,black);*/
+/*  background-color: aqua ;*/
+/*  background-repeat: no-repeat; */
 }
 H1{
     color: rgb(8, 49, 124);
